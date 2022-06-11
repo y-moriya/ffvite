@@ -1,0 +1,18 @@
+{
+  "name": "ffvite",
+  "version": "1.0.0",
+  "description": "ffvote built with vitepress",
+  "main": "index.js",
+  "repository": "https://github.com/y-moriya/ffvite",
+  "author": "y-moriya",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.1"
+  }
+}
